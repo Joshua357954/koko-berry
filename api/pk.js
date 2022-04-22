@@ -9,8 +9,8 @@ const router = express.Router();
 router.get("/", async (req, res) => {
   try {
     res.json({
-      status: 200,
-      message: "Get data has successfully (Joshua)",
+      status: "ok",
+      message: "Your express app is running fine , Hola :)",
     });
   } catch (error) {
     console.error(error);
